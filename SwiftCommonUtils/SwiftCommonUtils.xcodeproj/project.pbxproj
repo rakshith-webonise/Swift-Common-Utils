@@ -14,6 +14,7 @@
 		ACA9F5881CB3BD840071B5B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA9F5851CB3BD840071B5B7 /* Main.storyboard */; };
 		ACA9F58C1CB3BD910071B5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9F58A1CB3BD900071B5B7 /* AppDelegate.swift */; };
 		ACA9F58D1CB3BD910071B5B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACA9F58B1CB3BD910071B5B7 /* Info.plist */; };
+		ACBFC65F1CB5066B00C1A4EE /* ColorConversionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ACA9F5891CB3BD900071B5B7 /* SwiftCommonUtils-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCommonUtils-Bridging-Header.h"; sourceTree = "<group>"; };
 		ACA9F58A1CB3BD900071B5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SupportingFiles/AppDelegate.swift; sourceTree = "<group>"; };
 		ACA9F58B1CB3BD910071B5B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorConversionUtil.swift; path = "Common Methods/ColorConversionUtil.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				ACA79E0F1CB3CCCC00363D50 /* StringUtils.swift */,
-				ACA79E111CB3CD4100363D50 /* AlertDialogUtils.swift */,
 			);
 			name = "String Utils";
 			sourceTree = "<group>";
@@ -79,6 +80,8 @@
 		ACA9F57D1CB3BCBE0071B5B7 /* CommonMethods */ = {
 			isa = PBXGroup;
 			children = (
+				ACBFC6611CB5068100C1A4EE /* ColorConversionUtils */,
+				ACBFC6601CB5067000C1A4EE /* AlertDialog Util */,
 				ACA79E0E1CB3CC5000363D50 /* String Utils */,
 			);
 			name = CommonMethods;
@@ -116,6 +119,22 @@
 				ACA9F5851CB3BD840071B5B7 /* Main.storyboard */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		ACBFC6601CB5067000C1A4EE /* AlertDialog Util */ = {
+			isa = PBXGroup;
+			children = (
+				ACA79E111CB3CD4100363D50 /* AlertDialogUtils.swift */,
+			);
+			name = "AlertDialog Util";
+			sourceTree = "<group>";
+		};
+		ACBFC6611CB5068100C1A4EE /* ColorConversionUtils */ = {
+			isa = PBXGroup;
+			children = (
+				ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */,
+			);
+			name = ColorConversionUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +212,7 @@
 				ACA79E101CB3CCCC00363D50 /* StringUtils.swift in Sources */,
 				ACA79E121CB3CD4100363D50 /* AlertDialogUtils.swift in Sources */,
 				ACA9F58C1CB3BD910071B5B7 /* AppDelegate.swift in Sources */,
+				ACBFC65F1CB5066B00C1A4EE /* ColorConversionUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
