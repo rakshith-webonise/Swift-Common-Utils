@@ -15,6 +15,8 @@
 		ACA9F58C1CB3BD910071B5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9F58A1CB3BD900071B5B7 /* AppDelegate.swift */; };
 		ACA9F58D1CB3BD910071B5B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACA9F58B1CB3BD910071B5B7 /* Info.plist */; };
 		ACBFC65F1CB5066B00C1A4EE /* ColorConversionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */; };
+		ACCE51AF1CBE421A00DFCCBE /* TableViewAndCellUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE51AE1CBE421A00DFCCBE /* TableViewAndCellUtil.swift */; };
+		ACCE51B21CBE443C00DFCCBE /* CommonValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE51B11CBE443C00DFCCBE /* CommonValidations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		ACA9F58A1CB3BD900071B5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SupportingFiles/AppDelegate.swift; sourceTree = "<group>"; };
 		ACA9F58B1CB3BD910071B5B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorConversionUtil.swift; path = "Common Methods/ColorConversionUtil.swift"; sourceTree = "<group>"; };
+		ACCE51AE1CBE421A00DFCCBE /* TableViewAndCellUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewAndCellUtil.swift; path = "Common Methods/TableViewAndCellUtil.swift"; sourceTree = "<group>"; };
+		ACCE51B11CBE443C00DFCCBE /* CommonValidations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonValidations.swift; path = "Common Methods/CommonValidations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		ACA9F57D1CB3BCBE0071B5B7 /* CommonMethods */ = {
 			isa = PBXGroup;
 			children = (
+				ACCE51B01CBE441D00DFCCBE /* CommonValidations */,
+				ACCE51AD1CBE41E700DFCCBE /* TableView and Cell */,
 				ACBFC6611CB5068100C1A4EE /* ColorConversionUtils */,
 				ACBFC6601CB5067000C1A4EE /* AlertDialog Util */,
 				ACA79E0E1CB3CC5000363D50 /* String Utils */,
@@ -135,6 +141,22 @@
 				ACBFC65E1CB5066B00C1A4EE /* ColorConversionUtil.swift */,
 			);
 			name = ColorConversionUtils;
+			sourceTree = "<group>";
+		};
+		ACCE51AD1CBE41E700DFCCBE /* TableView and Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE51AE1CBE421A00DFCCBE /* TableViewAndCellUtil.swift */,
+			);
+			name = "TableView and Cell";
+			sourceTree = "<group>";
+		};
+		ACCE51B01CBE441D00DFCCBE /* CommonValidations */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE51B11CBE443C00DFCCBE /* CommonValidations.swift */,
+			);
+			name = CommonValidations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA79E101CB3CCCC00363D50 /* StringUtils.swift in Sources */,
+				ACCE51AF1CBE421A00DFCCBE /* TableViewAndCellUtil.swift in Sources */,
 				ACA79E121CB3CD4100363D50 /* AlertDialogUtils.swift in Sources */,
 				ACA9F58C1CB3BD910071B5B7 /* AppDelegate.swift in Sources */,
 				ACBFC65F1CB5066B00C1A4EE /* ColorConversionUtil.swift in Sources */,
+				ACCE51B21CBE443C00DFCCBE /* CommonValidations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
