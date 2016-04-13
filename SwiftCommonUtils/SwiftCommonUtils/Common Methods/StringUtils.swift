@@ -1,10 +1,3 @@
-//
-//  StringUtils.swift
-//  SwiftCommonUtils
-//
-//  Created by Rakshith-iMac on 05/04/16.
-//  Copyright © 2016 Weboniselab. All rights reserved.
-//
 
 import Foundation
 
